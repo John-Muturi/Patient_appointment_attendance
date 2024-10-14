@@ -14,6 +14,8 @@
 ### Project Overview
 I used SQL to clean and preprocess the patient appointment dataset from Kaggle, which contains over 100,000 patient appointments. Used advanced SQL queries to segment patients based on their no-show rates, age, gender and disease type. Segmented data by age groups to uncover attendance rates by life stage.Used Power BI to visualize the no-show trends and provide recommendations to improve patient attendance at appointments.
 
+<img width="630" alt="Patient_appointment_dashboard" src="https://github.com/user-attachments/assets/d808cf3e-cee0-462a-8af4-c59f24cbb9d9">
+
 ### Data source
 The secondary data used for this project it the 'Medical_Appointment_No-Shows.csv'. It contains detailed information on patients attendance to the scheduled appointments.
 
