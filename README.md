@@ -118,7 +118,7 @@ In this project, I worked with the Patient Appointment No-Shows dataset to ensur
      SELECT patient_id, COUNT(patient_id) AS appointment_count
      FROM healthcare_new1
      GROUP BY patient_id
-     HAVING COUNT(patien_tid) > 1
+     HAVING COUNT(patient_id) > 1
      ORDER BY patient_id DESC;
      ##Checking for duplicates in the appointment_id column resulted in 0 duplicates.
      ## Hence I could use the appointment_id column as a unique identifier.
