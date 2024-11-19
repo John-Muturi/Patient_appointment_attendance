@@ -153,7 +153,8 @@ EDA involved exploring the medical appointment dataset to answer key questions s
 Here are the interesting queries that I used in my data analysis process.
 - To answer the first question: What percentage of patients did not show up for their appointments?
  - ```sql
-    SELECT showed_up,COUNT(*) AS total_count, COUNT(*) * 100.0 / (SELECT COUNT(*) FROM healthcare) AS percentage
+    SELECT showed_up,COUNT(*) AS total_count, COUNT(*) * 100.0 / (SELECT COUNT(*) FROM healthcare) AS
+    percentage
     FROM  healthcare
     GROUP BY showed_up;
 - For the second question: How do no-show rates differ by age-group,gender and chronic disease?
